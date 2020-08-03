@@ -1,0 +1,25 @@
+{
+  "name": "intl-message-format-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx es-dev-server --node-resolve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goremikin/intl-message-format-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goremikin/intl-message-format-issue/issues"
+  },
+  "homepage": "https://github.com/goremikin/intl-message-format-issue#readme",
+  "dependencies": {
+    "intl-messageformat": "^9.2.0"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.57.1"
+  }
+}

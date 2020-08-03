@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>intl-messageformat</title>
+  </head>
+  <body>
+    <span id="translate"></span>
+
+    <script type="module">
+      import IntlMessageFormat from 'intl-messageformat';
+      const enNumPhotos = new IntlMessageFormat(
+      `
+      You have {numPhotos, plural, =0 {no photos.} =1 {one photo.} other {# photos.}}
+      `,
+      'en-US'
+      );
+      document.getElementById('translate').innerText = enNumPhotos.format({ numPhotos: 1000 });
+    </script>
+</body>
+</html>
